@@ -20,6 +20,11 @@ export const metadata = {
   title: "ZIA WHOLESALE | Premium Laptop Distribution",
   description:
     "The UK's premier source for imported enterprise hardware. Direct wholesale pricing for high-performance computing.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
