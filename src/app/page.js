@@ -59,10 +59,16 @@ export default function Home() {
               wholesale pricing for high-performance computing.
             </p>
             <div className="flex flex-col gap-4">
-              <Link href="/products" className="sharp-gradient-btn text-white py-4 font-label-bold uppercase tracking-widest shadow-lg inline-block">
+              <Link
+                href="/products"
+                className="sharp-gradient-btn text-white py-4 font-label-bold uppercase tracking-widest shadow-lg inline-block"
+              >
                 Browse Inventory
               </Link>
-              <Link href="/wholesale" className="border border-white text-white py-4 font-label-bold uppercase tracking-widest hover:bg-white hover:text-on-background transition-colors inline-block text-center">
+              <Link
+                href="/wholesale"
+                className="border border-white text-white py-4 font-label-bold uppercase tracking-widest hover:bg-white hover:text-on-background transition-colors inline-block text-center"
+              >
                 Partner With Us
               </Link>
             </div>
@@ -240,7 +246,7 @@ export default function Home() {
                 retail.&rdquo;
               </p>
               <p className="text-on-surface font-label-bold uppercase text-[14px]">
-                Zia-Ul-Haq
+                Zia Ullah
               </p>
               <p className="text-on-surface-variant text-[12px]">
                 Chief Executive Officer
@@ -291,7 +297,10 @@ export default function Home() {
           <p className="mb-10 opacity-90">
             Access our exclusive price list and seasonal wholesale offers.
           </p>
-          <Link href="/wholesale" className="sharp-gradient-btn text-white py-4 font-label-bold uppercase tracking-widest shadow-lg inline-block">
+          <Link
+            href="/wholesale"
+            className="sharp-gradient-btn text-white py-4 font-label-bold uppercase tracking-widest shadow-lg inline-block"
+          >
             Get Wholesale Price List
           </Link>
         </section>
@@ -329,10 +338,16 @@ export default function Home() {
                 at Competitive Wholesale Prices.
               </p>
               <div className="flex flex-wrap gap-4 mb-12">
-                <Link href="/products" className="sharp-gradient-btn text-white font-label-bold px-10 py-4 uppercase tracking-wider shadow-lg">
+                <Link
+                  href="/products"
+                  className="sharp-gradient-btn text-white font-label-bold px-10 py-4 uppercase tracking-wider shadow-lg"
+                >
                   View Products
                 </Link>
-                <Link href="/contact" className="border border-white text-white font-label-bold px-10 py-4 uppercase tracking-wider hover:bg-white hover:text-on-background transition-all">
+                <Link
+                  href="/contact"
+                  className="border border-white text-white font-label-bold px-10 py-4 uppercase tracking-wider hover:bg-white hover:text-on-background transition-all"
+                >
                   Contact Us
                 </Link>
               </div>
@@ -534,7 +549,10 @@ export default function Home() {
                 Get access to our latest UK imported stock list today.
               </p>
             </div>
-            <Link href="/wholesale" className="sharp-gradient-btn text-white font-label-bold px-12 py-5 uppercase tracking-widest shadow-lg">
+            <Link
+              href="/wholesale"
+              className="sharp-gradient-btn text-white font-label-bold px-12 py-5 uppercase tracking-widest shadow-lg"
+            >
               DOWNLOAD STOCK LIST
             </Link>
           </div>
