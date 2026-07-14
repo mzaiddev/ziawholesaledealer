@@ -10,7 +10,6 @@ const LINKS = [
   { key: "brands", label: "BRANDS", href: "/brands" },
   { key: "wholesale", label: "WHOLESALE", href: "/wholesale" },
   { key: "services", label: "SERVICES", href: "/services" },
-  { key: "contact", label: "CONTACT", href: "/contact" },
 ];
 
 function getActiveKey(pathname) {
@@ -54,10 +53,10 @@ function DesktopHeader() {
           })}
         </nav>
         <Link
-          href="/wholesale"
+          href="/contact"
           className="sharp-gradient-btn px-6 py-3 text-white font-label-bold text-label-bold uppercase tracking-wider shadow-lg"
         >
-          REQUEST QUOTE
+          Contact
         </Link>
       </div>
     </header>

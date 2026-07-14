@@ -210,6 +210,126 @@ export default function Wholesale() {
             </ul>
           </div>
         </section>
+        <section className="py-24 bg-inverse-surface text-white">
+          <div className="w-full px-margin-mobile max-w-max-width mx-auto">
+            <div className="flex flex-col lg:flex-row gap-16 items-center">
+              <div className="w-full lg:w-1/2">
+                <div className="relative">
+                  <img
+                    className="w-full aspect-video object-cover border-4 border-primary"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAC2NmNFcZJ_TW8NFlk0T6sWq3SCw1G5s7uLHMIfE3p6aXONt6BgDAaNZJeSrW7ohf5Zaee1IR-Apah0sQ-iMieq0GuzxNuFil0Z0JS5_R-OpXA2_5YWG3f69LWr5-rTCqx1Om7sCXMO1HHOPRV3vewSvboFWI3vE0ydvY09yfXjd-Qoc0ZLn9mrstATWxl0erIyZUzJeQNu6cJyrNX0EwgQuf6OPkH4oy_CRPX4vjnEoCK-VoQVf0WNQ"
+                  />
+                  <div className="absolute -bottom-6 -right-6 bg-primary p-8 hidden md:block">
+                    <span className="font-display-lg text-white block leading-none">
+                      UK
+                    </span>
+                    <span className="font-label-bold uppercase tracking-widest">
+                      Imported
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full lg:w-1/2">
+                <h2 className="font-headline-md text-headline-md mb-8 uppercase">
+                  Why Partner With Us?
+                </h2>
+                <div className="space-y-8">
+                  {[
+                    [
+                      "flight_takeoff",
+                      "Direct UK Imports",
+                      "We source directly from UK corporate channels, eliminating middlemen and passing the savings to you.",
+                    ],
+                    [
+                      "fact_check",
+                      "Rigorous Testing",
+                      "Every laptop undergoes 25-point quality inspection. We guarantee Grade-A hardware for all wholesale orders.",
+                    ],
+                    [
+                      "bolt",
+                      "Fast Fulfillment",
+                      "Orders processed within 24 hours. Nationwide delivery network ensures your inventory arrives on schedule.",
+                    ],
+                    [
+                      "account_balance",
+                      "Competitive Margins",
+                      "Our tiered pricing model maximizes your profit margins. The more you buy, the more you save.",
+                    ],
+                  ].map(([icon, title, desc]) => (
+                    <div key={title} className="flex items-start gap-6">
+                      <MaterialIcon
+                        name={icon}
+                        className="text-primary text-3xl flex-shrink-0"
+                      />
+                      <div>
+                        <h4 className="font-headline-sm text-xl mb-2 uppercase">
+                          {title}
+                        </h4>
+                        <p className="text-surface-variant font-body-md">
+                          {desc}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="py-24 bg-surface-container-low">
+          <div className="w-full px-margin-mobile max-w-max-width mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="font-headline-md text-headline-md uppercase tracking-tight mb-4">
+                How It Works
+              </h2>
+              <div className="w-24 h-1 bg-primary-container mx-auto" />
+            </div>
+            <p className="text-on-surface-variant font-body-md max-w-2xl mx-auto text-center mb-12">
+              From inquiry to delivery in four simple steps. Our streamlined
+              wholesale process ensures you get what you need, when you need it.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-gutter relative">
+              <div className="hidden md:block absolute top-1/2 left-[12.5%] right-[12.5%] h-0.5 bg-outline-variant -translate-y-1/2 z-0" />
+              {[
+                [
+                  "01",
+                  "Submit Inquiry",
+                  "Tell us your requirements and target quantity through our simple quote request form.",
+                ],
+                [
+                  "02",
+                  "Get a Quote",
+                  "Our team responds within 24 hours with competitive wholesale pricing and stock availability.",
+                ],
+                [
+                  "03",
+                  "Place Order",
+                  "Confirm your order and choose from flexible payment options tailored to your business.",
+                ],
+                [
+                  "04",
+                  "Receive Delivery",
+                  "Securely packed and shipped via our logistics network with real-time tracking.",
+                ],
+              ].map(([num, title, desc]) => (
+                <div
+                  key={num}
+                  className="relative z-10 bg-white border border-outline-variant p-8 text-center group hover:border-primary transition-all"
+                >
+                  <div className="w-14 h-14 bg-primary-container text-white flex items-center justify-center mx-auto mb-6 font-bold text-xl">
+                    {num}
+                  </div>
+                  <h4 className="font-label-bold text-label-bold uppercase mb-4">
+                    {title}
+                  </h4>
+                  <p className="text-on-surface-variant font-body-md text-sm">
+                    {desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         {/* CTA */}
         <section className="py-20 px-4 bg-primary text-white text-center">
