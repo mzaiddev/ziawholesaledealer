@@ -224,7 +224,7 @@ export default function Home() {
             <div className="relative mb-8">
               <div className="aspect-square overflow-hidden border-8 border-white shadow-xl">
                 <img
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover  transition-all duration-500"
                   src="/ower-image.png"
                   alt="Founder & CEO"
                 />
@@ -416,7 +416,7 @@ export default function Home() {
                 <div className="absolute -inset-4 border-2 border-primary-container/20 group-hover:border-primary-container transition-colors" />
                 <img
                   alt="Founder of Zia Wholesale"
-                  className="w-full h-full object-cover rounded-none relative z-10 shadow-xl  hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover rounded-none relative z-10 shadow-xl   transition-all duration-500"
                   src="/ower-image.png"
                 />
                 <div className="absolute bottom-0 right-0 bg-primary-container p-8 z-20">
